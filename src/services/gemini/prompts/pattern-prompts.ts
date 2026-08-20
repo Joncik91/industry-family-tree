@@ -184,13 +184,15 @@ ${JSON_INSTRUCTION}
     "transferBarriers": ["Barrier 1", "Barrier 2"],
     "successFactors": ["Factor 1", "Factor 2"]
   },
-  "promisingDomains": [
+  "transferTargets": [
     {
-      "domain": "Target domain 1",
-      "transferFit": 85,
-      "adaptationsNeeded": ["Adaptation 1", "Adaptation 2"],
+      "targetNeed": "Target need 1",
+      "targetIndustry": "Target industry 1",
+      "transferDifficulty": "medium",
       "expectedImpact": "high",
-      "pioneersNeeded": "Technical expertise required"
+      "requiredAdaptations": ["Adaptation 1", "Adaptation 2"],
+      "marketGap": "Market gap being filled",
+      "timeToImplementation": "6-12 months"
     }
   ],
   "strengthScore": 80,
